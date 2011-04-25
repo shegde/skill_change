@@ -1,0 +1,142 @@
+.container {
+  width: 700px;
+}
+
+body {
+  background: lightblue;
+}
+
+header {
+  padding-top: 20px;
+}
+
+header img {
+  padding: 0.5em;
+  background: darksalmon;
+}
+
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: white;
+}
+
+section h1 {
+  font-size: 200%;
+}
+
+a {
+  color: #09c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #069;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #069;
+}
+
+nav {
+  float: right;
+}
+
+nav {
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #09c;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.round {
+  border-radius: 10px;
+}
+
+footer {
+	text-align: center;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer nav {
+	float:none;
+}
+
+.span-8 {
+	text-align: center;
+	font-weight: bold;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: medium;
+	border-color: darksalmon;
+}
+
+.search {
+	text-align: center;
+	width: 40px;
+	margin: 1em;
+}
+
+a.signup_button {
+	  margin-left: auto;
+	  margin-right: auto;
+	  display: block;
+	  text-align: center;
+	  width: 150px;
+	  color: #fff;
+	  background: darksalmon;
+	  font-size: 100%;
+	  font-weight: bold;
+	  padding: 5px;
+}
+
+#txt_skill {
+	width: 90px;
+	border-radius: 5px;
+	margin-left: 15px;
+}
+
+#txt_zip {
+	width: 40px;
+	border-radius: 5px;
+	margin-left: 62px;
+}
+
+div.field, div.actions {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#lbl {
+	padding: 2em;
+	width: 100px;
+}

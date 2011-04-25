@@ -1,9 +1,13 @@
 SkillChange::Application.routes.draw do
   
+  get "users/new"
+
   match '/contact', :to => 'pages#contact'
   match '/about', :to => 'pages#about'
   match '/faq', :to => 'pages#faq'
-
+  match '/help', :to => 'pages#faq'
+  match '/signup', :to => 'users#new'
+  match '/search', :to => 'pages#search' # not working
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
