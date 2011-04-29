@@ -1,4 +1,6 @@
 SkillChange::Application.routes.draw do
+  get "sessions/new"
+  resources :sessions, :only => [:new, :create, :destroy]
   resources :users
   
   match '/contact', :to => 'pages#contact'
@@ -7,6 +9,9 @@ SkillChange::Application.routes.draw do
   match '/help', :to => 'pages#faq'
   match '/signup', :to => 'users#new'
   match '/search', :to => 'pages#search' # not working
+  
+  match '/signin',  :to => 'sessions#new'
+  match '/signout', :to => 'sessions#destroy'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
